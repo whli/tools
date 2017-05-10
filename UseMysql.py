@@ -25,10 +25,10 @@ sys.setdefaultencoding("utf-8")
 class mysql:  
     def __init__ (self,db):
         dbchoose={\
-	'xuexizhou'  : {'host': "10.3.250.93",  'user': 'bi-wr',     'passwd': 'H8&^Jhd9*6ku' },\
-        'haibian'    : {'host': "10.3.250.93" , 'user': 'haibian_w', 'passwd': 'haibian!@#$%' },\
-        'haibian_di' : {'host': "10.3.250.33",  'user': 'bi-wr',     'passwd': 'H8&^Jhd9*6ku' },\
-        'haibian_crm': {'host': "10.3.250.33",  'user': 'bi-wr',     'passwd': 'H8&^Jhd9*6ku' } }  
+	'xuexizhou'  : {'host': "10.3.250.93",  'user': 'bi-wr',     'passwd': '' },\
+        'haibian'    : {'host': "10.3.250.93" , 'user': 'haibian_w', 'passwd': '' },\
+        'haibian_di' : {'host': "10.3.250.33",  'user': 'bi-wr',     'passwd': '' },\
+        'haibian_crm': {'host': "10.3.250.33",  'user': 'bi-wr',     'passwd': '' } }  
         
         self.host   = dbchoose[db]['host']  
         self.user   = dbchoose[db]['user']
