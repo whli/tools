@@ -1,7 +1,5 @@
 #-*-coding:utf8-*-
 """
-author:wangyue
-date:20150806
 """
 import logging
 from logging.handlers import RotatingFileHandler
